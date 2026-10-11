@@ -1,0 +1,8 @@
+import streamlit as st
+
+st.title("Mi primer dashboard desde cero 🚀")
+st.write("¡Hola! Estoy aprendiendo a usar Streamlit paso a paso.")
+
+# Un control interactivo sencillo
+numero = st.slider("Elige un número:", 1, 10, 5)
+st.success(f"El número seleccionado es: {numero}")
